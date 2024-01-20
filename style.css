@@ -1,0 +1,34 @@
+/* style.css */
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Fira Mono', monospace;
+}
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #555;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+nav a:hover {
+    background-color: #777;
+}
+
+/* Style for highlighting hashtags */
+.hashtag {
+    /* Adjust the color and styles as needed */
+    color: #3498db; /* Blue color for hashtags */
+    font-weight: bold; /* Make hashtags bold */
+}
